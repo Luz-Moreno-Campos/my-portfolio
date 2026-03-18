@@ -1,0 +1,55 @@
+.container {
+  width: min(100% - 30px, 1080px);
+  margin-inline: auto;
+}
+
+body {
+  font-family: "Exo 2", sans-serif;
+  background: radial-gradient(circle, #050338 0%, #031157 40%, #0d5390 80%, #29b8ff 100%);
+  color: #bfd5ee;
+}
+
+img {
+  max-width: 100%;
+
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Rajdhani", sans-serif;
+  color: #c9dbf0;
+}
+
+a {
+  text-decoration: none;
+  color: #c9dbf0;
+}
+
+#header {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  gap: 35px;
+  margin-right: 40px;
+  margin-top: 30px;
+
+}
+
+.menu a {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #e8f1ff;
+  padding: 10px 15px;
+  transition: transform 0.25s ease-in-out;
+}
+
+.menu a:hover {
+  color: #74d6f4;
+  transform: translateY(-2px);
+}
