@@ -288,7 +288,8 @@ a {
 
 #contact {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items:center;
   margin-top: 40px;
 }
 
@@ -363,6 +364,14 @@ textarea.input-box {
   background: #5ccff1;
   box-shadow: 0 0 24px rgba(94, 230, 255, 0.8);
   transform: translateY(-3px);
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  font-size: 2.8rem; 
+  gap: 30px;
+  margin-top: 30px;
 }
 
 
