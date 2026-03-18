@@ -133,3 +133,39 @@ a {
   }
 }
 
+#about {
+  padding: 64px 32px; 
+}
+
+.container.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px; 
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.about-image img {
+  width: 230px;
+  height: 230px;
+
+  position: relative;
+  right: 120px;
+  bottom: 100px;
+
+  border-radius: 50%;
+  border: 3px solid #4cc9f0;
+}
+
+.about-info {
+  max-width: 550px;
+  margin-top: 20px;
+}
+
+.about-info p {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #cfd8e3;
+}
