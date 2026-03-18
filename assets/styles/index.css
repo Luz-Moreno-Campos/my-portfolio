@@ -105,7 +105,7 @@ a {
     0 0 8px rgba(76, 201, 240, 0.6),
     0 0 16px rgba(76, 201, 240, 0.4),
     inset 0 0 6px rgba(255, 255, 255, 0.2);
-  transition: transform 0.25s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 #hero-button:hover {
@@ -132,4 +132,114 @@ a {
     transform: scale(1);
   }
 }
+
+#about {
+  padding: 64px 32px; 
+}
+
+.container.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px; 
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.about-image img {
+  width: 230px;
+  height: 230px;
+
+  position: relative;
+  right: 120px;
+  bottom: 100px;
+
+  border-radius: 50%;
+  border: 3px solid #4cc9f0;
+}
+
+.about-info {
+  max-width: 550px;
+  margin-top: 20px;
+}
+
+.about-info p {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #cfd8e3;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 40px;
+  margin-left: 190px;
+}
+
+.skills-header {
+  margin-bottom: 15px;
+  font-size: 2rem; 
+  justify-content: center ;
+}
+
+.technical-skills ul,
+.professional-skills ul {
+  list-style: none;
+}
+
+.technical-skills li,
+.professional-skills li {
+  padding: 4px 0 4px 18px; 
+  position: relative;
+}
+
+.technical-skills li::before,
+.professional-skills li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #4cc9f0;
+  font-size: 1.1rem; 
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#download-cv {
+  display: inline-block;
+  margin-top: 20px; 
+  padding: 10px 20px; 
+  font-size: 1.5rem; 
+  font-weight: 600;
+  color: #5ee6ff;
+  border: 2px solid #5ee6ff;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  text-shadow: 0 0 6px rgba(94, 230, 255, 0.8);
+  box-shadow:
+    0 0 8px rgba(94, 230, 255, 0.6),
+    0 0 16px rgba(94, 230, 255, 0.4),
+    inset 0 0 8px rgba(94, 230, 255, 0.3);
+  backdrop-filter: blur(4px);
+  letter-spacing: 0.5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#download-cv:hover {
+  background: #2eb0d7;
+  color: #00121f;
+  box-shadow:
+    0 0 12px rgba(94, 230, 255, 0.9),
+    0 0 24px rgba(94, 230, 255, 0.7),
+    0 0 36px rgba(94, 230, 255, 0.5);
+  transform: translateY(-3px);
+}
+
+
+
 
