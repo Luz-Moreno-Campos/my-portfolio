@@ -119,3 +119,17 @@ a {
   transform: translateY(-3px);
 }
 
+@keyframes zoomPulse { /*this creates the zoom in/out effect in my hero image*/
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.12); 
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
