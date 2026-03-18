@@ -169,3 +169,39 @@ a {
   margin-bottom: 15px;
   color: #cfd8e3;
 }
+
+.skills {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 40px;
+  margin-left: 150px;
+}
+
+.skills-header {
+  margin-bottom: 15px;
+  font-size: 2rem; 
+  justify-content: center ;
+}
+
+.technical-skills ul,
+.professional-skills ul {
+  list-style: none;
+}
+
+.technical-skills li,
+.professional-skills li {
+  padding: 4px 0 4px 18px; 
+  position: relative;
+}
+
+.technical-skills li::before,
+.professional-skills li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #4cc9f0;
+  font-size: 1.1rem; 
+}
+
+
