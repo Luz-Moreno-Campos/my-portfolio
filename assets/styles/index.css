@@ -43,13 +43,13 @@ a {
 
 .menu a {
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #e8f1ff;
   padding: 10px 15px;
   transition: transform 0.25s ease-in-out;
 }
 
 .menu a:hover {
-  color: #74d6f4;
+  color: #8cdcf5;
   transform: translateY(-2px);
 }
