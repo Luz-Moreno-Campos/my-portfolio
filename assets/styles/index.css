@@ -105,7 +105,7 @@ a {
     0 0 8px rgba(76, 201, 240, 0.6),
     0 0 16px rgba(76, 201, 240, 0.4),
     inset 0 0 6px rgba(255, 255, 255, 0.2);
-  transition: transform 0.25s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 #hero-button:hover {
@@ -203,5 +203,43 @@ a {
   color: #4cc9f0;
   font-size: 1.1rem; 
 }
+
+.resume {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#download-cv {
+  display: inline-block;
+  margin-top: 20px; 
+  padding: 10px 20px; 
+  font-size: 1.5rem; 
+  font-weight: 600;
+  color: #5ee6ff;
+  border: 2px solid #5ee6ff;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  text-shadow: 0 0 6px rgba(94, 230, 255, 0.8);
+  box-shadow:
+    0 0 8px rgba(94, 230, 255, 0.6),
+    0 0 16px rgba(94, 230, 255, 0.4),
+    inset 0 0 8px rgba(94, 230, 255, 0.3);
+  backdrop-filter: blur(4px);
+  letter-spacing: 0.5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#download-cv:hover {
+  background: #2eb0d7;
+  color: #00121f;
+  box-shadow:
+    0 0 12px rgba(94, 230, 255, 0.9),
+    0 0 24px rgba(94, 230, 255, 0.7),
+    0 0 36px rgba(94, 230, 255, 0.5);
+  transform: translateY(-3px);
+}
+
+
 
 
