@@ -402,6 +402,10 @@ textarea.input-box {
     0 0 36px rgba(76, 201, 240, 0.5);
 }
 
-
+.footer-content {
+  background: #0a111e;
+  padding: 30px;
+  text-align: center;
+}
 
 
