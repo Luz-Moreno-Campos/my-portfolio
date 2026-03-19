@@ -246,7 +246,7 @@ a {
 .projects {
   display: flex;
   gap: 40px;
-  height: 200px;
+  /*height: 200px;*/
   max-width: 900px;
   margin: auto;
   padding-bottom: 15px; 
@@ -448,6 +448,18 @@ textarea.input-box {
     margin-bottom: 10px;
   }
  
+
+  .projects {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .project-box {
+    width: calc(50% - 20px); 
+  }
+
+
   .contact-form {
     padding: 30px;
     max-width: 80%;
