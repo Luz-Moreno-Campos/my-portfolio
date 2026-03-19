@@ -438,6 +438,15 @@ textarea.input-box {
    justify-content: left;
    
   }
+
+  .project-box{
+   line-height: 100%;
+   padding-top: 30px;
+  }
+
+  #upcoming {
+    margin-bottom: 10px;
+  }
  
   .contact-form {
     padding: 30px;
@@ -453,7 +462,7 @@ textarea.input-box {
   }
 
   #submit-button {
-    padding: 15px 30px; 
+    padding: 5px; 
   }
 }
 
