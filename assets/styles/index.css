@@ -246,7 +246,6 @@ a {
 .projects {
   display: flex;
   gap: 40px;
-  /*height: 200px;*/
   max-width: 900px;
   margin: auto;
   padding-bottom: 15px; 
@@ -407,12 +406,19 @@ textarea.input-box {
 
 @media (max-width: 900px) {
 
+  #hero-header {
+    font-size: 3.5rem;
+  }
+
+  #hero-text {
+    font-size: 2.2rem;
+
+  }
   .container.about {
     flex-direction: column;
     text-align: center;
     gap: 20px;
   }
-
 
   .about-image {
     margin: auto;  
@@ -423,8 +429,6 @@ textarea.input-box {
     margin: auto;   
     display: block;
   }
-
-
 
   .skills {
     margin-left: 0;
@@ -448,7 +452,6 @@ textarea.input-box {
     margin-bottom: 10px;
   }
  
-
   .projects {
     flex-wrap: wrap;
     justify-content: center;
@@ -458,7 +461,6 @@ textarea.input-box {
   .project-box {
     width: calc(50% - 20px); 
   }
-
 
   .contact-form {
     padding: 30px;
@@ -478,4 +480,90 @@ textarea.input-box {
   }
 }
 
+@media (max-width: 600px) {
+    
+  #hero-header {
+    font-size: 3rem;
+  }
+
+  #hero-text {
+    font-size: 2rem;
+
+  }
+
+  .container.about {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px; 
+  
+  }
+
+  .about-image img {
+    width: 200px;   
+    height: 200px;
+    margin: auto;
+    display: block;
+  }
+
+  .about-info p {
+    font-size: 1.5rem; 
+  
+  }
+
+  .skills {
+    flex-direction: column; 
+    align-items: center;
+    gap: 25px;
+    margin-left: 0;
+  }
+
+  .technical-skills li,
+  .professional-skills li {
+    font-size: 1.4rem; 
+    display: flex;
+    justify-content: left;
+  
+  }
+   
+  .projects {
+    flex-direction: column; 
+    gap: 25px;
+    height: auto;
+  }
+
+  .project-box {
+    width: 100%;        
+    padding: 25px;
+    line-height: 1.5;
+    font-size: 1.4rem;  
+  }
+
+  #upcoming {
+    margin-bottom: 10px;
+  }
+
+  .contact-form {
+    max-width: 90%;
+    padding: 25px;
+  }
+
+  .contact-form h3 {
+    font-size: 1.8rem; 
+  }
+
+  .input-box {
+    padding: 14px;
+    font-size: 1.3rem;
+  }
+
+  #submit-button {
+    padding: 5px;
+    font-size: 1.4rem;
+  }
+
+  .social-media {
+    font-size: 2.4rem;
+    gap: 25px;
+  }
+}
 
