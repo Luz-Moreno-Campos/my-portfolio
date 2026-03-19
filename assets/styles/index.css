@@ -147,11 +147,8 @@ a {
 .about-image img {
   width: 230px;
   height: 230px;
-
-  position: relative;
-  right: 120px;
-  bottom: 100px;
-
+  margin-right: 80px;
+  margin-bottom: 180px;
   border-radius: 50%;
   border: 3px solid #4cc9f0;
 }
@@ -406,6 +403,58 @@ textarea.input-box {
   background: #0a111e;
   padding: 30px;
   text-align: center;
+}
+
+@media (max-width: 900px) {
+
+  .container.about {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+
+  .about-image {
+    margin: auto;  
+
+  }
+
+  .about-image img {
+    margin: auto;   
+    display: block;
+  }
+
+
+
+  .skills {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .technical-skills li,
+  .professional-skills li {
+   display: flex;
+   justify-content: left;
+   
+  }
+ 
+  .contact-form {
+    padding: 30px;
+    max-width: 80%;
+  }
+
+  .contact-form h3 {
+    font-size: 1.5px; 
+  }
+
+  .input-box {
+    padding: 15px; 
+  }
+
+  #submit-button {
+    padding: 15px 30px; 
+  }
 }
 
 
