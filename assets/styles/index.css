@@ -67,9 +67,9 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(55%);
-  animation: zoomPulse 8s ease-in-out infinite;
-  transform-origin: center;
+  filter: brightness(55%); /*darkened the image because it was too bright*/
+  animation: zoomPulse 8s ease-in-out infinite; /*sets duration, smoothness and repetition of animation*/
+  transform-origin: center; /*makes the zoom-in animation start from the center of the image*/
 }
 
 .hero-content {
@@ -169,7 +169,7 @@ a {
   justify-content: center;
   margin-top: 50px;
   gap: 40px;
-  margin-left: 190px;
+  margin-left: 220px;
 }
 
 .skills-header {
