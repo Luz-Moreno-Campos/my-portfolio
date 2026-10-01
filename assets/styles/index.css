@@ -151,6 +151,8 @@ a {
   margin-bottom: 180px;
   border-radius: 50%;
   border: 3px solid #4cc9f0;
+  object-fit: cover;
+  object-position: center top;
 }
 
 .about-info {
