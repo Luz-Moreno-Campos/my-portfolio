@@ -12,9 +12,6 @@ The site includes:
 - Resume download
 - Responsive design for different screen sizes
 
-## Live Website
-
-https://YOUR-GITHUB-PAGES-URL
 
 ## Technologies Used
 
@@ -37,6 +34,10 @@ https://YOUR-GITHUB-PAGES-URL
 
 I am a Software Development student at MITT with a professional background in translation, language education, marketing research, and communication. I am passionate about creating digital solutions that combine technology, communication, and design.
 
+##  Web Portfolio Screenshot
+
+![Portfolio ScreenShot](assets/media/ScreenshotPortfolio.png)
+
 ## Future Improvements
 
 - Add additional projects
@@ -47,5 +48,5 @@ I am a Software Development student at MITT with a professional background in tr
 
 **Luz Moreno Campos**
 
-- LinkedIn: (your LinkedIn URL)
+- LinkedIn: https://www.linkedin.com/in/luz-moreno-campos/
 - GitHub: https://github.com/Luz-Moreno-Campos
